@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "gh",
+    "repository": "Lloir/htc_kernel_oxp",
+    "target_path": "kernel/htc/enrc2b",
+    "revision": "cm-12.1"
+  },
+  {
+    "remote": "gh",
+    "repository": "themuppets/proprietary_vendor_htc",
+    "target_path": "vendor/htc",
+    "revision": "cm-12.1"
+  },
+  {
+    "remote": "gh",
+    "repository": "CyanogenMod/android_device_htc_tegra3-common",
+    "target_path": "device/htc/tegra3-common",
+    "revision": "cm-12.1"
+  }
+]
