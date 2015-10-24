@@ -2,3 +2,4 @@ allow healthd healthd : capability { dac_override dac_read_search net_admin sys_
 allow healthd device:dir r_dir_perms;
 allow healthd self:capability sys_nice;
 allow healthd self:process setsched;
+allow healthd cpuctl_device:dir search;
