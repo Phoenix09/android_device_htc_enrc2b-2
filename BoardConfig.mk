@@ -104,7 +104,6 @@ BOARD_SEPOLICY_UNION += \
     healthd.te \
     init.te \
     kernel.te \
-	keystore.te \
     lmkd.te \
     mediaserver.te \
     property.te \
