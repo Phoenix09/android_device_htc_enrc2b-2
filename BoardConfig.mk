@@ -103,6 +103,7 @@ BOARD_SEPOLICY_UNION += \
     hdmid.te \
     healthd.te \
     init.te \
+		installd.te \
     kernel.te \
     lmkd.te \
     mediaserver.te \
