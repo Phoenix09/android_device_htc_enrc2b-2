@@ -16,13 +16,11 @@
 
 import init.tegra3-common.rc
 import init.enrc2b.usb.rc
-import init.recovery.enrc2b.rc
 
 on fs
     mount_all /fstab.enrc2b
 
 on post-fs-data
-
     # GPS
     mkdir /data/gps
     chmod 0777 /data/gps
