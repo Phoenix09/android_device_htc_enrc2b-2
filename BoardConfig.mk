@@ -96,6 +96,7 @@ BOARD_SEPOLICY_UNION += \
     file_contexts \
     property_contexts \
     service_contexts \
+		adbd.te \
     drmserver.te \
 	bluetooth.te \
 	drmserver.te \
