@@ -96,6 +96,7 @@ BOARD_SEPOLICY_UNION += \
     file_contexts \
     property_contexts \
     service_contexts \
+		adbd.te \
     drmserver.te \
 	bluetooth.te \
 	drmserver.te \
@@ -103,8 +104,8 @@ BOARD_SEPOLICY_UNION += \
     hdmid.te \
     healthd.te \
     init.te \
+		installd.te \
     kernel.te \
-	keystore.te \
     lmkd.te \
     mediaserver.te \
     property.te \

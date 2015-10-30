@@ -1,8 +1,10 @@
 allow gpsd self:process execmem;
 allow gpsd self:capability dac_override;
+allow gpsd system_data_file:dir write;
 
 #Allow writing to pts
 allow gpsd devpts:chr_file rw_file_perms;
+allow gpsd system_data_file:dir add_name;
 
 allow domain system_data_file : dir { getattr search } ;
 
