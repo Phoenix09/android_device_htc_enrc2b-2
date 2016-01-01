@@ -6,6 +6,7 @@ allow rild radio_device:chr_file setattr;
 allow rild self:capability fsetid;
 allow rild init:dir search;
 allow rild kernel:dir search;
+allow rild system_data_file:file { write setattr };
 
 # Talk to agpsd
 allow gpsd rild:unix_stream_socket { connectto };

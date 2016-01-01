@@ -1,0 +1,1 @@
+allow shell cpuctl_device:dir search;

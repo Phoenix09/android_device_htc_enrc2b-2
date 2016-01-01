@@ -113,7 +113,9 @@ BOARD_SEPOLICY_UNION += \
     recovery.te \
     rild.te \
     sensors_config.te \
+		shell.te \
     surfaceflinger.te \
     system_app.te \
     system_server.te \
+		untrusted_app.te \
     zygote.te
